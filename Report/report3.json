@@ -1,0 +1,838 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Should Visit The loginpage and SignedIn",
+        "description": "",
+        "id": "sanity-functionality-checking-for-automationpractice;user-should-visit-the-loginpage-and-signedin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26458794700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch the Browser and hit url",
+            "match": {
+              "location": "StepDefinition.user_Launch_the_Browser_and_hit_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115085200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should See the AlreadyRegister text is Present in LoginPage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_the_AlreadyRegister_text_is_Present_in_LoginPage_User_Should()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47641300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Should See the Logo In homepage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_the_Logo_In_LeftCorner_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353552500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should Enter The \"KUMARAN6143@gmail.com\" in Emailfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUMARAN6143@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_Should_Enter_The_in_Emailfield(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301447300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Should Enter The \"KUMARAN\" in Passwordfield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KUMARAN",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.user_Should_Enter_The_in_Passwordfield(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23665200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Should Check The LoginButton is Clickable",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_The_LoginButton_is_Clickable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3736671100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Should SignIn The Application",
+            "match": {
+              "location": "StepDefinition.user_Should_Sign_The_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "User Should See Every Element Is Present IN HomePage",
+        "description": "",
+        "id": "sanity-functionality-checking-for-automationpractice;user-should-see-every-element-is-present-in-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38130100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Should See Logo In HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_Logo_In_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37612000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Should See Contact Number in HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_Contact_Number_in_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41873200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Should See Women Category in HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_Women_Category_in_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37928600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Should See Dresses Category in HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_Dresses_Category_in_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41017000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Should See T-shirt Category in HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_T_shirt_Category_in_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35086700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Should See Sign-out button in HomePage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_Sign_out_button_in_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27078300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Should Check Whether The SearchField Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_SearchField_Is_Enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38819700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Should Check The SearchIco Button Is Visible",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_The_SearchIco_Button_Is_Visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31189500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Should See the Cart logo Is Visible",
+            "match": {
+              "location": "StepDefinition.user_Should_See_the_Cart_logo_Is_Visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33322600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Should See The Account HolderName In RightCorner Of Homepage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_The_Account_HolderName_In_RightCorner_Of_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "",
+        "description": "User Place Order Using Search Options",
+        "id": "sanity-functionality-checking-for-automationpractice;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16069600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Verify Searchfield Is Enabled and Place An Order By SearchOption",
+            "match": {
+              "location": "StepDefinition.user_Verify_Searchfield_Is_Enabled_and_Place_An_Order_By_SearchOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16317600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should Check Whether The SearchField Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_SearchField_Is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12224714500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Should Pass \"Dress\" in Searchfield and Proceed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dress",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_Should_Pass_in_Searchfield_and_Proceed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38070300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Check Whether The FirstMenu Is Present",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_FirstMenu_Is_Present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230446100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Should See AddToCart Is Present and Whether Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_AddToCart_Is_Present_and_Whether_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83217800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Moved An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Moved_An_Product_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23495900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Should See ProceedToCheck Pop-out and Check Whether It Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_ProceedToCheck_Pop_out_and_Check_Whether_It_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8797735600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Completed Moving An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Completed_Moving_An_Product_To_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "",
+        "description": "User Place Order Using Search Options",
+        "id": "sanity-functionality-checking-for-automationpractice;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35276100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Verify Searchfield Is Enabled and Place An Order By SearchOption",
+            "match": {
+              "location": "StepDefinition.user_Verify_Searchfield_Is_Enabled_and_Place_An_Order_By_SearchOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19173300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should Check Whether The SearchField Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_SearchField_Is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4627944000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Should Pass \"T-Shirt\" in Searchfield and Proceed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T-Shirt",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_Should_Pass_in_Searchfield_and_Proceed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62057000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Check Whether The FirstMenu Is Present",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_FirstMenu_Is_Present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213231300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Should See AddToCart Is Present and Whether Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_AddToCart_Is_Present_and_Whether_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90533800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Moved An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Moved_An_Product_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17221200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Should See ProceedToCheck Pop-out and Check Whether It Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_ProceedToCheck_Pop_out_and_Check_Whether_It_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5763891400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Completed Moving An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Completed_Moving_An_Product_To_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "",
+        "description": "User Place Order Using Search Options",
+        "id": "sanity-functionality-checking-for-automationpractice;;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27692500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Verify Searchfield Is Enabled and Place An Order By SearchOption",
+            "match": {
+              "location": "StepDefinition.user_Verify_Searchfield_Is_Enabled_and_Place_An_Order_By_SearchOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15707600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should Check Whether The SearchField Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_SearchField_Is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3225254200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Should Pass \"Shirts\" in Searchfield and Proceed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shirts",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_Should_Pass_in_Searchfield_and_Proceed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43821900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Check Whether The FirstMenu Is Present",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_FirstMenu_Is_Present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245483600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Should See AddToCart Is Present and Whether Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_AddToCart_Is_Present_and_Whether_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111440900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Moved An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Moved_An_Product_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21613600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Should See ProceedToCheck Pop-out and Check Whether It Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_ProceedToCheck_Pop_out_and_Check_Whether_It_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15289936700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Completed Moving An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Completed_Moving_An_Product_To_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "",
+        "description": "User Place Order Using Search Options",
+        "id": "sanity-functionality-checking-for-automationpractice;;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33897300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Verify Searchfield Is Enabled and Place An Order By SearchOption",
+            "match": {
+              "location": "StepDefinition.user_Verify_Searchfield_Is_Enabled_and_Place_An_Order_By_SearchOption()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17919900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Should Check Whether The SearchField Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_SearchField_Is_Enabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6468464900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Should Pass \"Shoes\" in Searchfield and Proceed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shoes",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_Should_Pass_in_Searchfield_and_Proceed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66854600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Should Check Whether The FirstMenu Is Present",
+            "match": {
+              "location": "StepDefinition.user_Should_Check_Whether_The_FirstMenu_Is_Present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213137800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Should See AddToCart Is Present and Whether Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_AddToCart_Is_Present_and_Whether_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102549500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Moved An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Moved_An_Product_To_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24619600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Should See ProceedToCheck Pop-out and Check Whether It Is Enable",
+            "match": {
+              "location": "StepDefinition.user_Should_See_ProceedToCheck_Pop_out_and_Check_Whether_It_Is_Enable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5480321600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Completed Moving An Product To Cart",
+            "match": {
+              "location": "StepDefinition.user_Completed_Moving_An_Product_To_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "User Complete The Flow Of Breadcrumb End-to-End",
+        "description": "",
+        "id": "sanity-functionality-checking-for-automationpractice;user-complete-the-flow-of-breadcrumb-end-to-end",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52029800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Should Verify Shopping Cart Summary Text",
+            "match": {
+              "location": "StepDefinition.user_Should_Verify_Shopping_Cart_Summary_Text()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8090833400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Validate All button Enabled in SummaryPage",
+            "match": {
+              "location": "StepDefinition.user_Validate_All_button_Enabled_in_SummaryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4169847000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Check Proceedbutton is Enabled in AddressPAge",
+            "match": {
+              "location": "StepDefinition.user_Check_Proceedbutton_is_Enabled_in_AddressPAge()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79015000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Validate ShippingLogo is Present In shippingPage",
+            "match": {
+              "location": "StepDefinition.user_Validate_ShippingLogo_is_Present_In_shippingPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100621400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Verify TermOfService button Is Enabled in Shopping Page",
+            "match": {
+              "location": "StepDefinition.user_Verify_TermOfService_button_Is_Enabled_in_Shopping_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6322950300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Verify Proceedbutton Is Enabled In Shopping Page",
+            "match": {
+              "location": "StepDefinition.user_Verify_Proceedbutton_Is_Enabled_In_Shopping_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46324600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Should See The BankWire Is Present In PaymentPage",
+            "match": {
+              "location": "StepDefinition.user_Should_See_The_BankWire_Is_Present_In_PaymentPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001179100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Verify The PayWireButton Is Enabled",
+            "match": {
+              "location": "StepDefinition.user_Verify_The_PayWireButton_Is_Enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5019234900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Check Order Confirmation is Placed",
+            "match": {
+              "location": "StepDefinition.user_Check_Order_Confirmation_is_Placed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7103465400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User Logged Out",
+            "match": {
+              "location": "StepDefinition.user_Logged_Out()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sanity functionality checking for AutomationPractice",
+    "description": "",
+    "id": "sanity-functionality-checking-for-automationpractice",
+    "keyword": "Feature",
+    "uri": "AutomationPractice.feature"
+  }
+]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="129.099785">
+<testcase classname="Sanity functionality checking for AutomationPractice" name="User Should Visit The loginpage and SignedIn" time="39.012748">
+<system-out><![CDATA[Given User Launch the Browser and hit url...................................passed
+When User Should See the AlreadyRegister text is Present in LoginPage.......passed
+And User Should See the Logo In homepage....................................passed
+Then User Should Enter The "KUMARAN6143@gmail.com" in Emailfield............passed
+And User Should Enter The "KUMARAN" in Passwordfield........................passed
+And User Should Check The LoginButton is Clickable..........................passed
+Then User Should SignIn The Application.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="User Should See Every Element Is Present IN HomePage" time="0.419791">
+<system-out><![CDATA[Given User Should See Logo In HomePage......................................passed
+When User Should See Contact Number in HomePage.............................passed
+And User Should See Women Category in HomePage..............................passed
+And User Should See Dresses Category in HomePage............................passed
+And User Should See T-shirt Category in HomePage............................passed
+And User Should See Sign-out button in HomePage.............................passed
+And User Should Check Whether The SearchField Is Enabled....................passed
+And User Should Check The SearchIco Button Is Visible.......................passed
+And User Should See the Cart logo Is Visible................................passed
+Then User Should See The Account HolderName In RightCorner Of Homepage......passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="_2" time="17.990319">
+<system-out><![CDATA[Given User Verify Searchfield Is Enabled and Place An Order By SearchOption.passed
+Then User Should Check Whether The SearchField Is Enabled...................passed
+And User Should Pass "Dress" in Searchfield and Proceed.....................passed
+And User Should Check Whether The FirstMenu Is Present......................passed
+And User Should See AddToCart Is Present and Whether Is Enable..............passed
+And User Moved An Product To Cart...........................................passed
+And User Should See ProceedToCheck Pop-out and Check Whether It Is Enable...passed
+Then User Completed Moving An Product To Cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="_3" time="12.42896">
+<system-out><![CDATA[Given User Verify Searchfield Is Enabled and Place An Order By SearchOption.passed
+Then User Should Check Whether The SearchField Is Enabled...................passed
+And User Should Pass "T-Shirt" in Searchfield and Proceed...................passed
+And User Should Check Whether The FirstMenu Is Present......................passed
+And User Should See AddToCart Is Present and Whether Is Enable..............passed
+And User Moved An Product To Cart...........................................passed
+And User Should See ProceedToCheck Pop-out and Check Whether It Is Enable...passed
+Then User Completed Moving An Product To Cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="_4" time="10.765882">
+<system-out><![CDATA[Given User Verify Searchfield Is Enabled and Place An Order By SearchOption.passed
+Then User Should Check Whether The SearchField Is Enabled...................passed
+And User Should Pass "Shirts" in Searchfield and Proceed....................passed
+And User Should Check Whether The FirstMenu Is Present......................passed
+And User Should See AddToCart Is Present and Whether Is Enable..............passed
+And User Moved An Product To Cart...........................................passed
+And User Should See ProceedToCheck Pop-out and Check Whether It Is Enable...passed
+Then User Completed Moving An Product To Cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="_5" time="15.425053">
+<system-out><![CDATA[Given User Verify Searchfield Is Enabled and Place An Order By SearchOption.passed
+Then User Should Check Whether The SearchField Is Enabled...................passed
+And User Should Pass "Shoes" in Searchfield and Proceed.....................passed
+And User Should Check Whether The FirstMenu Is Present......................passed
+And User Should See AddToCart Is Present and Whether Is Enable..............passed
+And User Moved An Product To Cart...........................................passed
+And User Should See ProceedToCheck Pop-out and Check Whether It Is Enable...passed
+Then User Completed Moving An Product To Cart...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sanity functionality checking for AutomationPractice" name="User Complete The Flow Of Breadcrumb End-to-End" time="33.057032">
+<system-out><![CDATA[Given User Should Verify Shopping Cart Summary Text.........................passed
+Then User Validate All button Enabled in SummaryPage........................passed
+And User Check Proceedbutton is Enabled in AddressPAge......................passed
+And User Validate ShippingLogo is Present In shippingPage...................passed
+And User Verify TermOfService button Is Enabled in Shopping Page............passed
+And User Verify Proceedbutton Is Enabled In Shopping Page...................passed
+And User Should See The BankWire Is Present In PaymentPage..................passed
+And User Verify The PayWireButton Is Enabled................................passed
+And User Check Order Confirmation is Placed.................................passed
+Then User Logged Out........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
